@@ -1,0 +1,61 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(32, 32, 41); /* Couleur solide, non transparente */
+  color: white;
+  padding: 15px 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none; /* Pas d'ombre pour un look minimaliste */
+  border-bottom: 1px solid rgba(15, 18, 56, 0.2); /* Ligne fine de séparation */
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 20px;
+}
+
+.header-nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1); /* Couleur légère pour les liens */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.header-nav-link:hover {
+  background-color: rgba(203, 206, 223, 0.8); /* Couleur d'accentuation avec transparence */
+  transform: scale(1.1); /* Zoom léger */
+}
+
+.header-center {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  letter-spacing: 1px; /* Espacement des lettres pour un look moderne */
+}
+.header-center-description{
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  letter-spacing: 1px; /* Espacement des lettres pour un look moderne */
+
+}
