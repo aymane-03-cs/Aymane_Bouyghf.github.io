@@ -1,8 +1,11 @@
 import React from 'react';
 import './Home.scss';   
+import Header from '../Header/Header';
 function Home() {
   
   return (
+    <>
+    <Header></Header>
     <div className="home">
       <div className="stars">
         {[...Array(50)].map((_, index) => (
@@ -16,6 +19,7 @@ function Home() {
       <div className="home"> I am actively seeking a <strong>3-4 month internship </strong>opportunity that would begin in July 2025.</div>
 
     </div>
+    </>
   );
 }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import Security from './Security/Security';
+import Header from '../Header/Header';
 
 function Projects() {
   //Developing projects  
@@ -73,6 +74,8 @@ function Projects() {
   ]
 
   return (
+    <>
+    <Header></Header>
     <div className="projects">
       <br />
       <br />
@@ -121,6 +124,7 @@ function Projects() {
       {/* Cyber Security Rooms */}
       <Security></Security>
     </div>
+    </>
   );
 }
 

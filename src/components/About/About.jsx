@@ -3,9 +3,13 @@ import './About.css';
 import PhotoCv2 from '../../Pictures/PhotoCv2.jpeg';
 import cv2 from '../../assets/cv2.pdf';
 import Hobbies from './Hobbies/Hobbies';
+import Header from '../Header/Header';
+import Home from '../Home/Home';
 
 const About = () => {
   return (
+    <>
+    <Header></Header>
     <div className="about-container">
       <div className="about">
         <img src={PhotoCv2} alt="My Photo" className='about-photo'/>
@@ -26,6 +30,8 @@ const About = () => {
       </div>
       <Hobbies />
     </div>
+    </>
+
   );
 };
 

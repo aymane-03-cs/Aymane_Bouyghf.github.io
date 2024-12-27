@@ -1,9 +1,11 @@
 import React from "react";
 import "./Contact.css";
-
+import Header from "../Header/Header";
 
 const Contact = () => {
   return (
+    <>
+    <Header></Header>
     <div className="contact-container">
       <h2>Contact Me</h2>
       <p className="contact-intro">Feel free to reach out to me with any questions, collaboration opportunities, or professional offers.</p>
@@ -42,6 +44,7 @@ const Contact = () => {
         </p>
       </div>
     </div>
+    </>
   );
 };
 
