@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Chemin de base pour un site personnel (username.github.io)
+  base: '/aymane-03-cs.github.io/', // Chemin de base pour un site personnel (username.github.io)
 });
