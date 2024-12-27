@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import About from './components/About/About';
@@ -7,7 +7,7 @@ import Contact from './components/Contact/Contact';
 
 function App() {
   return (
-    <Router basename="/Aymane_Bouyghf.github.io/">
+    <Router>
       <main style={{ flex: 1 }}>
         <Routes>
           <Route path="/" element={<Home />} />
