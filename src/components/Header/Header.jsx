@@ -7,7 +7,7 @@ function Header() {
     <header className="header">
       <div className="header-nav">
         <div className="header-nav-list header-nav-list-left">
-          <Link to="/" className="header-nav-link">Homme</Link>
+          <Link to="/" className="header-nav-link">Home</Link>
           <Link to="/About" className="header-nav-link">About</Link>
         </div>
         <div className="header-center">
