@@ -39,8 +39,8 @@ function Projects() {
     },
     {
       title: 'Portfolio',
-      description: "Creating my personnal portfolio shocasing my projects, the portfolio is a web page availble on-line.",
-      tools: ["Html", "Css", "Javascript", "React.js", "Vite"],
+      description: "Creating my personnal portfolio showcasing my projects, the portfolio is a web page availble on-line.",
+      tools: ["Html", "Css","Scss", "Javascript", "React.js", "Vite"],
       link: GitHubLink,
     },
 
