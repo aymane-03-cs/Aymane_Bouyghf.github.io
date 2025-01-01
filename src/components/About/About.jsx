@@ -25,7 +25,7 @@ const About = () => {
             target="_blank" 
             rel="noopener noreferrer"
           >
-            View My CV
+            View my resume 
           </a>
         </div>
         <Hobbies />

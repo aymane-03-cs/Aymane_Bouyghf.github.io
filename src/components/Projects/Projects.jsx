@@ -37,6 +37,13 @@ function Projects() {
       tools: ["Yacc", "Bison", "GCC"],
       link: GitHubLink,
     },
+    {
+      title: 'Portfolio',
+      description: "Creating my personnal portfolio shocasing my projects, the portfolio is a web page availble on-line.",
+      tools: ["Html", "Css", "Javascript", "React.js", "Vite"],
+      link: GitHubLink,
+    },
+
   ];
   //Numerical And Mathematic Modeling Projects
   const AlgoNumProjectList = [
