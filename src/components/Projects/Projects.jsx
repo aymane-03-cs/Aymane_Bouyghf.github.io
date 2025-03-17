@@ -102,7 +102,7 @@ function Projects() {
             </ul>
             {/*<a className='project-link '>More</a>*/}
             <a href={project.link} className="project-link code" target="_blank" rel="noopener noreferrer">
-              View code
+              View More
             </a>
           </div>
         ))}
