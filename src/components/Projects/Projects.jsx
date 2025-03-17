@@ -40,7 +40,7 @@ function Projects() {
     {
       title: 'Portfolio',
       description: "Creating my personnal portfolio showcasing my projects, the portfolio is a web page availble on-line.",
-      tools: ["Html", "Css","Scss", "Javascript", "React.js", "Vite"],
+      tools: ["Html", "Css","Scss",  "Javascript", "React.js", "Vite"],
       link: GitHubLink,
     },
 
@@ -122,7 +122,7 @@ function Projects() {
             </ul>
             {/*<a className='project-link '>More</a>*/}
             <a href={project.link} className="project-link code" target="_blank" rel="noopener noreferrer">
-              View code
+              View More
             </a>
           </div>
         ))}
